@@ -225,7 +225,7 @@ The following tables lists the configurable parameters of the Keycloak chart and
 |-------------------------|-----------------------------------------------------------|--------------------------------------------------|
 | `serviceAccount.create` | Enable the creation of a ServiceAccount for Keycloak pods | `true`                                           |
 | `serviceAccount.name`   | Name of the created ServiceAccount                        | Generated using the `keycloak.fullname` template |
-| `rbac.create`           | Weather to create & use RBAC resources or not             | `false`                                          |
+| `rbac.create`           | Whether to create & use RBAC resources or not             | `false`                                          |
 | `rbac.rules`            | Specifies whether RBAC resources should be created        | `[]`                                             |
 
 ### Other parameters
@@ -448,7 +448,7 @@ To use a single existing secret `existingSecret` can be configured at values.yam
         management-password: myManagementPasswordKey
         database-password: myDatabasePasswordKey
         tls-keystore-password: myTlsKeystorePasswordKey
-        tls-truestore-password: myTlsTruestorePasswordKey
+        tls-truststore-password: myTlsTruststorePasswordKey
 ```
 
 The keyMapping links the passwords in the chart with the passwords stored in the existing Secret.
