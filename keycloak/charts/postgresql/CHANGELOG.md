@@ -1,8 +1,42 @@
 # Changelog
 
-## 16.4.1 (2025-01-13)
+## 16.4.9 (2025-02-14)
 
-* Dynamic assignment of custom schema name if defined in update-password job ([#31146](https://github.com/bitnami/charts/pull/31146))
+* [bitnami/postgresql] Release 16.4.9 ([#31935](https://github.com/bitnami/charts/pull/31935))
+
+## <small>16.4.8 (2025-02-13)</small>
+
+* [bitnami/*] Use CDN url for the Bitnami Application Icons (#31881) ([d9bb11a](https://github.com/bitnami/charts/commit/d9bb11a9076b9bfdcc70ea022c25ef50e9713657)), closes [#31881](https://github.com/bitnami/charts/issues/31881)
+* [bitnami/postgresql] Release 16.4.8 (#31919) ([3a013d5](https://github.com/bitnami/charts/commit/3a013d5224e3bf9db42a1540f66c5c1aa2eeecfd)), closes [#31919](https://github.com/bitnami/charts/issues/31919)
+
+## <small>16.4.7 (2025-02-10)</small>
+
+* [bitnami/postgresql] use adminPassword for metrics user when custom user is not set on primary (#318 ([ca8f930](https://github.com/bitnami/charts/commit/ca8f9307b80e6a192b51d333fbe8b927b2949be1)), closes [#31840](https://github.com/bitnami/charts/issues/31840)
+
+## <small>16.4.6 (2025-02-03)</small>
+
+* [bitnami/postgresql] Release 16.4.6 (#31702) ([0a0a5d3](https://github.com/bitnami/charts/commit/0a0a5d33825e523f8fa780bdec97b685fd74d0e3)), closes [#31702](https://github.com/bitnami/charts/issues/31702)
+* Update copyright year (#31682) ([e9f02f5](https://github.com/bitnami/charts/commit/e9f02f5007068751f7eb2270fece811e685c99b6)), closes [#31682](https://github.com/bitnami/charts/issues/31682)
+
+## <small>16.4.5 (2025-01-20)</small>
+
+* [bitnami/postgresql] Release 16.4.5 (#31484) ([b11637c](https://github.com/bitnami/charts/commit/b11637c36ab924cd764ead95e30838a0c4af8321)), closes [#31484](https://github.com/bitnami/charts/issues/31484)
+
+## <small>16.4.4 (2025-01-20)</small>
+
+* [bitnami/postgresql] Release 16.4.4 (#31482) ([e784f18](https://github.com/bitnami/charts/commit/e784f187c01d6a2d7a1237ae5015bd5cb6e4e4b8)), closes [#31482](https://github.com/bitnami/charts/issues/31482)
+
+## <small>16.4.3 (2025-01-14)</small>
+
+* bitnami/postgresql Fix missing dot in include statement for passwordUpdate job template (#31364) ([901b26c](https://github.com/bitnami/charts/commit/901b26c4b7be8935d9764d51df4b76d8dede0117)), closes [#31364](https://github.com/bitnami/charts/issues/31364)
+
+## <small>16.4.2 (2025-01-13)</small>
+
+* [bitnami/postgresql] Release 16.4.2 (#31342) ([946b638](https://github.com/bitnami/charts/commit/946b638fd63e2d7e74865d591ef403b4dce229b3)), closes [#31342](https://github.com/bitnami/charts/issues/31342)
+
+## <small>16.4.1 (2025-01-13)</small>
+
+* Dynamic assignment of custom schema name if defined in update-password job (#31146) ([364ac45](https://github.com/bitnami/charts/commit/364ac45ea6a20b693662b14a17122885f4e43364)), closes [#31146](https://github.com/bitnami/charts/issues/31146)
 
 ## <small>16.3.5 (2025-01-03)</small>
 
